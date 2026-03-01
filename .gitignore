@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+# datasets/*.csv
+*.log
+.ipynb_checkpoints/
+node_modules/
+
+# Models (Keep metadata but ignore large weights if needed)
+# models/*.h5
+# models/*.onnx
+# (Để mặc định đẩy cả model lên vì user vừa mới train xong)
+
+# Secrets and local credentials
+.env
+.env.*
+*.env
+**/*.env
+scripts/config.env
+certs/*.pem
+certs/*.key
+*.pem
+*.key
+*.p12
+*.pfx
