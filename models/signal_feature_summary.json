@@ -1,0 +1,131 @@
+{
+  "global": {
+    "windows": 2590,
+    "signal_std_mean": 1.0,
+    "signal_std_std": 0.0,
+    "signal_rms_mean": 1.0,
+    "signal_rms_std": 0.0,
+    "signal_ptp_mean": 4.998205,
+    "signal_ptp_std": 0.711085,
+    "zero_crossing_rate_mean": 0.0576,
+    "zero_crossing_rate_std": 0.009496,
+    "dominant_bpm_fft_mean": 15.460232,
+    "dominant_bpm_fft_std": 6.205534
+  },
+  "by_scenario": [
+    {
+      "scenario": "Apnea",
+      "windows": 509,
+      "signal_std_mean": 1.0,
+      "signal_std_std": 0.0,
+      "signal_rms_mean": 1.0,
+      "signal_rms_std": 0.0,
+      "signal_ptp_mean": 4.903474,
+      "signal_ptp_std": 0.718071,
+      "zero_crossing_rate_mean": 0.058933,
+      "zero_crossing_rate_std": 0.008717,
+      "dominant_bpm_fft_mean": 16.640472,
+      "dominant_bpm_fft_std": 6.158867
+    },
+    {
+      "scenario": "Fast",
+      "windows": 520,
+      "signal_std_mean": 1.0,
+      "signal_std_std": 0.0,
+      "signal_rms_mean": 1.0,
+      "signal_rms_std": 0.0,
+      "signal_ptp_mean": 5.017962,
+      "signal_ptp_std": 0.70912,
+      "zero_crossing_rate_mean": 0.059043,
+      "zero_crossing_rate_std": 0.010165,
+      "dominant_bpm_fft_mean": 16.803846,
+      "dominant_bpm_fft_std": 6.059321
+    },
+    {
+      "scenario": "Noise",
+      "windows": 521,
+      "signal_std_mean": 1.0,
+      "signal_std_std": 0.0,
+      "signal_rms_mean": 1.0,
+      "signal_rms_std": 0.0,
+      "signal_ptp_mean": 5.08935,
+      "signal_ptp_std": 0.706654,
+      "zero_crossing_rate_mean": 0.055701,
+      "zero_crossing_rate_std": 0.008611,
+      "dominant_bpm_fft_mean": 13.055662,
+      "dominant_bpm_fft_std": 5.573344
+    },
+    {
+      "scenario": "Normal",
+      "windows": 525,
+      "signal_std_mean": 1.0,
+      "signal_std_std": 0.0,
+      "signal_rms_mean": 1.0,
+      "signal_rms_std": 0.0,
+      "signal_ptp_mean": 5.017875,
+      "signal_ptp_std": 0.668741,
+      "zero_crossing_rate_mean": 0.057143,
+      "zero_crossing_rate_std": 0.009856,
+      "dominant_bpm_fft_mean": 15.207619,
+      "dominant_bpm_fft_std": 5.919841
+    },
+    {
+      "scenario": "Slow",
+      "windows": 515,
+      "signal_std_mean": 1.0,
+      "signal_std_std": 0.0,
+      "signal_rms_mean": 1.0,
+      "signal_rms_std": 0.0,
+      "signal_ptp_mean": 4.959624,
+      "signal_ptp_std": 0.738212,
+      "zero_crossing_rate_mean": 0.057213,
+      "zero_crossing_rate_std": 0.0096,
+      "dominant_bpm_fft_mean": 15.627184,
+      "dominant_bpm_fft_std": 6.543123
+    }
+  ],
+  "by_subject": [
+    {
+      "subject": "AN1",
+      "windows": 854,
+      "signal_std_mean": 1.0,
+      "signal_std_std": 0.0,
+      "signal_rms_mean": 1.0,
+      "signal_rms_std": 0.0,
+      "signal_ptp_mean": 5.052216,
+      "signal_ptp_std": 0.72748,
+      "zero_crossing_rate_mean": 0.057095,
+      "zero_crossing_rate_std": 0.008554,
+      "dominant_bpm_fft_mean": 15.564403,
+      "dominant_bpm_fft_std": 5.692959
+    },
+    {
+      "subject": "AN2",
+      "windows": 868,
+      "signal_std_mean": 1.0,
+      "signal_std_std": 0.0,
+      "signal_rms_mean": 1.0,
+      "signal_rms_std": 0.0,
+      "signal_ptp_mean": 4.972671,
+      "signal_ptp_std": 0.688354,
+      "zero_crossing_rate_mean": 0.058756,
+      "zero_crossing_rate_std": 0.009943,
+      "dominant_bpm_fft_mean": 16.108295,
+      "dominant_bpm_fft_std": 6.571989
+    },
+    {
+      "subject": "HAU1",
+      "windows": 868,
+      "signal_std_mean": 1.0,
+      "signal_std_std": 0.0,
+      "signal_rms_mean": 1.0,
+      "signal_rms_std": 0.0,
+      "signal_ptp_mean": 4.970599,
+      "signal_ptp_std": 0.714117,
+      "zero_crossing_rate_mean": 0.056941,
+      "zero_crossing_rate_std": 0.009808,
+      "dominant_bpm_fft_mean": 14.709677,
+      "dominant_bpm_fft_std": 6.231594
+    }
+  ]
+}

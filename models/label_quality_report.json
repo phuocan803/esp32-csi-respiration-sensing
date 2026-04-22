@@ -1,0 +1,119 @@
+{
+  "files": 75,
+  "subjects": [
+    {
+      "subject": "AN1",
+      "files": 25,
+      "scenarios": [
+        "Apnea",
+        "Fast",
+        "Noise",
+        "Normal",
+        "Slow"
+      ],
+      "bpms": [
+        6.0,
+        12.0,
+        17.0,
+        26.0
+      ]
+    },
+    {
+      "subject": "AN2",
+      "files": 25,
+      "scenarios": [
+        "Apnea",
+        "Fast",
+        "Noise",
+        "Normal",
+        "Slow"
+      ],
+      "bpms": [
+        6.0,
+        12.0,
+        17.0,
+        26.0
+      ]
+    },
+    {
+      "subject": "HAU1",
+      "files": 25,
+      "scenarios": [
+        "Apnea",
+        "Fast",
+        "Noise",
+        "Normal",
+        "Slow"
+      ],
+      "bpms": [
+        6.0,
+        12.0,
+        17.0,
+        26.0
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": "Apnea",
+      "files": 15,
+      "subjects": [
+        "AN1",
+        "AN2",
+        "HAU1"
+      ],
+      "bpms": [
+        6.0
+      ]
+    },
+    {
+      "scenario": "Fast",
+      "files": 15,
+      "subjects": [
+        "AN1",
+        "AN2",
+        "HAU1"
+      ],
+      "bpms": [
+        26.0
+      ]
+    },
+    {
+      "scenario": "Noise",
+      "files": 15,
+      "subjects": [
+        "AN1",
+        "AN2",
+        "HAU1"
+      ],
+      "bpms": [
+        17.0
+      ]
+    },
+    {
+      "scenario": "Normal",
+      "files": 15,
+      "subjects": [
+        "AN1",
+        "AN2",
+        "HAU1"
+      ],
+      "bpms": [
+        17.0
+      ]
+    },
+    {
+      "scenario": "Slow",
+      "files": 15,
+      "subjects": [
+        "AN1",
+        "AN2",
+        "HAU1"
+      ],
+      "bpms": [
+        12.0
+      ]
+    }
+  ],
+  "warnings": []
+}
