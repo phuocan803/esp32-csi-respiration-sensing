@@ -1,0 +1,7 @@
+aws_region          = "us-east-1"
+project_prefix      = "respiration"
+lambda_function_name = "respiration-iot-handler"
+iot_topic_filter    = "respiration/#"
+telegram_webhook_url = ""
+alert_bpm_low       = 5
+alert_bpm_high      = 30
